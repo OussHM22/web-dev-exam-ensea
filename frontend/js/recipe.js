@@ -38,7 +38,6 @@ const loadRecipe = async (recipeId) => {
 		const recipeDetail = document.getElementById("recipe-detail")
 
 		// 2. Afficher la recette dans la grid
-		//renderRecipeCard(recipe)
 	} catch (error) {
 		console.error("Erreur lors du chargement de la recette:", error.message)
 		alert(
